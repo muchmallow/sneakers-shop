@@ -95,7 +95,7 @@ const Drawer = ({ onClose, onRemove, opened }) => {
         ) : (
           <Info
             title={isOrderComlete ? 'Заказ оформлен!' : 'Корзина пустая.'}
-            image={isOrderComlete ? '/img/complete-order.jpg' : '/img/empty-cart.jpg'}
+            image={isOrderComlete ? 'img/complete-order.jpg' : 'img/empty-cart.jpg'}
             description={
               isOrderComlete
                 ? `Ваш заказ ${orderId} оформлен, ожидайте звонка менеджера.`

@@ -49,7 +49,7 @@ const Header = ({ onClickCart }) => {
           <span>{totalPrice} грн</span>
         </li>
         <li>
-          <Link to="/favourites">
+          <Link to="favourites">
             <svg
               width="22"
               height="19"
@@ -64,7 +64,7 @@ const Header = ({ onClickCart }) => {
           </Link>
         </li>
         <li>
-          <Link to="/orders">
+          <Link to="orders">
             <svg
               width="20"
               height="20"
